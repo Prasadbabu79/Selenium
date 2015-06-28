@@ -19,7 +19,6 @@ public class Imageclick {
 		WebDriver driver;
 		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
-	
 		driver.get("http://www.amazon.in");
 		
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
