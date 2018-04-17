@@ -22,8 +22,8 @@ public class Imageclick {
 		driver.get("http://www.amazon.in");
 		//updating the third time
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		
 		driver.findElement(By.xpath("//*[@id='gwcswA']/div[2]/div[2]/div/table/tbody/tr/td/map/area")).click();
+		driver.quit();
 		
 	}
 
